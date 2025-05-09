@@ -68,7 +68,7 @@ function btnPress(){
     checkBtn(userSeq.length-1);
 };
 let allBtns=document.querySelectorAll(".btn");
-for(btn of allBtns){
+for(let btn of allBtns){
     btn.addEventListener("click",btnPress);
 };
 
