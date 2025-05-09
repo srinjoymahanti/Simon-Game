@@ -32,7 +32,7 @@ function userFlash(button){//This button is only for taking inputs
 function levelUp(){
     userSeq=[];
     level++;
-    h2.innerText=`Level ${level}`;
+    h2.innerHTML=`Level ${level} </br>Press the flashed buttons`;
 
     let randIndx=Math.floor(Math.random() * 4);
     let randColor=boxes[randIndx];
